@@ -21,7 +21,7 @@ for i in list:
 
 # Q.4. Write a function named `calculate_average` that takes 3 marks and returns the average.
 def calculate_average(m1,m2,m3):
-    average=(m1+m2+m3)/5
+    average=(m1+m2+m3)/3
     return average
 
 m1 = float(input("Enter the marks of m1"))
