@@ -1,22 +1,24 @@
-# Day 4 Assignment - Python Data Structures
+# Day 4 Assignment 
 
 # Question 1: List Append
-students = ['Rohit', 'Sneha', 'Kavya', 'Manish', 'Vikram']
-students.append('Aarti')
+
+students = ['Aman', 'Priya', 'Shalu', 'Raj', 'Ansh']
+students.append('Vivek')
 print(students)
 
 # Question 2: Tuple Indexing
-cities = ('Prayagraj', 'Varanasi', 'Kanpur', 'Agra', 'Noida')
+
+cities = ('Mumbai', 'Pune', 'Delhi', 'Noida', 'Agra')
 print(cities[2])
 
 # Question 3: Set Add
-courses = {'Python', 'Java', 'C++', 'Web Development'}
+courses = {'Python', 'SQL', 'Machine Learning', 'Data Analytics'}
 courses.add('AI')
 print(sorted(courses))
 
 # Question 4: Dictionary Access
 student = {
-    'name': 'Priyanshu Upadhyay',
+    'name': 'Rahul',
     'course': 'Python Data AI',
     'batch': 'B',
     'city': 'Lucknow'
@@ -38,8 +40,8 @@ print(word_count)
 
 # Question 7: Nested Student Dictionary
 student_info = {
-    'name': 'Priyanshu',
-    'marks': {'python': 88, 'data': 92},
+    'name': 'Neha',
+    'marks': {'python': 85, 'data': 90},
     'skills': ['Python', 'SQL']
 }
 student_info['skills'].append('Pandas')
